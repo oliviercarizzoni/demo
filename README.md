@@ -8,7 +8,7 @@ Comment l'utiliser
 
 Créer une feuille XSLT contenant le code suivant :
 
-'''xslt
+```xslt
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
   xmlns:xs="http://www.w3.org/2001/XMLSchema"
@@ -35,6 +35,6 @@ Créer une feuille XSLT contenant le code suivant :
   </xsl:template>
   
 </xsl:stylesheet>
-'''
+```
 
 Utiliser cette feuille avec un document XML dans un moteur XSLT tel que Saxon
