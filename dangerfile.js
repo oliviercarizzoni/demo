@@ -25,6 +25,8 @@
 //
 // `DANGER_GITHUB_API_TOKEN=[ENV_ABOVE] yarn danger pr https://github.com/facebook/react/pull/11865
 
+const a = 'test';
+
 const {markdown, danger} = require('danger');
 const fetch = require('node-fetch');
 
